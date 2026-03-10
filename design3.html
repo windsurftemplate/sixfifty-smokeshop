@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Six Fifty — Heady Luxe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style3.css" />
+</head>
+<body>
+
+  <!-- ══ NAV ══════════════════════════════════════════════════ -->
+  <header id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="brand">Six Fifty</a>
+      <nav class="nav-links">
+        <a href="#categories">Shop All</a>
+        <a href="#categories">Rigs</a>
+        <a href="#categories">Accessories</a>
+        <a href="#categories">Vaporizers</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="nav-icon" aria-label="Search">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+        <button class="nav-icon" aria-label="Account">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
+        <button class="nav-icon cart-icon" id="cart-toggle" aria-label="Cart">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          <span class="cart-badge" id="cart-badge">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#categories">Shop All</a>
+      <a href="#categories">Rigs</a>
+      <a href="#categories">Accessories</a>
+      <a href="#about">About</a>
+    </div>
+  </header>
+
+  <!-- ══ HERO ═════════════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-img-wrap">
+      <img src="images/hero-bg.jpg" alt="Six Fifty" />
+    </div>
+    <div class="hero-vignette"></div>
+    <div class="hero-content">
+      <div class="hero-meta">
+        <span class="meta-rule"></span>
+        <span class="meta-text">Premium Smoke Shop · Est. 2020 · 650 Area Code</span>
+        <span class="meta-rule"></span>
+      </div>
+      <h1 class="hero-headline">
+        <em>Elevate</em><br>the Ritual.
+      </h1>
+      <p class="hero-sub">Handpicked glass, precision grinders, and curated essentials. Built for the discerning smoker.</p>
+      <div class="hero-ctas">
+        <a href="#categories" class="btn-primary">Shop the Collection</a>
+        <a href="#about" class="btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-number">650</div>
+  </section>
+
+  <!-- ══ MARQUEE ═══════════════════════════════════════════════ -->
+  <div class="marquee-bar">
+    <div class="marquee-track">
+      <span>Heady Glass</span><span class="dot">·</span>
+      <span>Modular Rigs</span><span class="dot">·</span>
+      <span>Aerospace Grinders</span><span class="dot">·</span>
+      <span>Daily Essentials</span><span class="dot">·</span>
+      <span>Discreet Shipping</span><span class="dot">·</span>
+      <span>Quality Curated</span><span class="dot">·</span>
+      <span>Local Roots</span><span class="dot">·</span>
+      <span>Heady Glass</span><span class="dot">·</span>
+      <span>Modular Rigs</span><span class="dot">·</span>
+      <span>Aerospace Grinders</span><span class="dot">·</span>
+      <span>Daily Essentials</span><span class="dot">·</span>
+      <span>Discreet Shipping</span><span class="dot">·</span>
+      <span>Quality Curated</span><span class="dot">·</span>
+      <span>Local Roots</span><span class="dot">·</span>
+    </div>
+  </div>
+
+  <!-- ══ CATEGORIES ════════════════════════════════════════════ -->
+  <section class="categories" id="categories">
+    <div class="cat-header">
+      <div class="cat-header-rule"></div>
+      <h2 class="cat-header-title">The Collection</h2>
+      <div class="cat-header-rule"></div>
+    </div>
+
+    <div class="cat-grid">
+      <a class="cat-card" href="#products" data-filter="rigs">
+        <div class="cat-img-wrap">
+          <img src="images/bongs-category.jpg" alt="Modular Rigs" />
+        </div>
+        <div class="cat-info">
+          <span class="cat-number">01</span>
+          <h3 class="cat-name">Modular Rigs</h3>
+          <p class="cat-desc">Heady glass &amp; precision dab systems</p>
+          <span class="cat-link">Explore →</span>
+        </div>
+      </a>
+
+      <a class="cat-card cat-card--tall" href="#products" data-filter="grinders">
+        <div class="cat-img-wrap">
+          <img src="images/grinders-category.jpg" alt="Aerospace Grinders" />
+        </div>
+        <div class="cat-info">
+          <span class="cat-number">02</span>
+          <h3 class="cat-name">Aerospace Grinders</h3>
+          <p class="cat-desc">CNC-milled alloy, ceramic coated</p>
+          <span class="cat-link">Explore →</span>
+        </div>
+      </a>
+
+      <a class="cat-card" href="#products" data-filter="essentials">
+        <div class="cat-img-wrap">
+          <img src="images/pipes-category.jpg" alt="Daily Essentials" />
+        </div>
+        <div class="cat-info">
+          <span class="cat-number">03</span>
+          <h3 class="cat-name">Daily Essentials</h3>
+          <p class="cat-desc">Pipes, papers &amp; carry pieces</p>
+          <span class="cat-link">Explore →</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ══ FEATURED PRODUCT ═══════════════════════════════════════ -->
+  <section class="featured">
+    <div class="featured-inner">
+      <div class="featured-photo">
+        <img src="images/pipes-category.jpg" alt="The Slate Ceramic Pipe" />
+        <div class="featured-photo-tag">
+          <span>Featured Piece</span>
+        </div>
+      </div>
+      <div class="featured-text">
+        <span class="featured-label">Technical. Minimalist.</span>
+        <h2 class="featured-name">The Slate<br><em>Ceramic Pipe.</em></h2>
+        <p class="featured-price">$75.00</p>
+        <p class="featured-desc">Hand-finished matte ceramic construction. High-tolerance joint fit. Paired with a match-drilled glass screen and soft-bristle brush kit.</p>
+        <ul class="featured-includes">
+          <li>Glass screen included</li>
+          <li>Cleaning brush kit</li>
+          <li>Matte slate card-matched finish</li>
+        </ul>
+        <div class="featured-actions">
+          <button class="btn-primary" onclick="addToCart(4, this)">Add to Cart</button>
+          <a href="#products" class="btn-ghost">View All Pipes</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ TRUST ══════════════════════════════════════════════════ -->
+  <section class="trust-section">
+    <div class="trust-inner">
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 2 L24 6 L24 14 C24 20.5 14 26 14 26 C14 26 4 20.5 4 14 L4 6 Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+        </div>
+        <h4>Discreet Shipping</h4>
+        <p>Plain packaging, every time</p>
+      </div>
+      <div class="trust-rule"></div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="10" stroke="currentColor" stroke-width="1.2"/><path d="M9 14 L12 17 L19 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h4>Quality Curated</h4>
+        <p>Hand-inspected glass &amp; gear</p>
+      </div>
+      <div class="trust-rule"></div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 12 L14 4 L24 12 L24 26 L4 26Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><rect x="11" y="18" width="6" height="8" rx="1" stroke="currentColor" stroke-width="1.2"/></svg>
+        </div>
+        <h4>Local Roots</h4>
+        <p>Born in the 650. Community first.</p>
+      </div>
+      <div class="trust-rule"></div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="3" y="8" width="22" height="16" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M3 13 L25 13" stroke="currentColor" stroke-width="1.2"/><circle cx="9" cy="18" r="1.5" fill="currentColor"/></svg>
+        </div>
+        <h4>Free Returns</h4>
+        <p>30-day hassle-free policy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PRODUCTS ═══════════════════════════════════════════════ -->
+  <section class="products-section" id="products">
+    <div class="section-header">
+      <div class="section-header-text">
+        <span class="section-label">Handpicked Favorites</span>
+        <h2 class="section-title">Best Sellers</h2>
+      </div>
+      <div class="filter-tabs" id="filter-tabs">
+        <button class="ftab active" data-cat="all">All</button>
+        <button class="ftab" data-cat="rigs">Rigs</button>
+        <button class="ftab" data-cat="grinders">Grinders</button>
+        <button class="ftab" data-cat="essentials">Essentials</button>
+      </div>
+    </div>
+    <div class="products-grid" id="products-grid"></div>
+    <div class="products-more">
+      <a href="#" class="btn-outline">View Full Collection</a>
+    </div>
+  </section>
+
+  <!-- ══ BRAND STORY ════════════════════════════════════════════ -->
+  <section class="brand-story" id="about">
+    <div class="story-inner">
+      <div class="story-photo">
+        <img src="images/bongs-category.jpg" alt="Six Fifty" />
+        <div class="story-photo-caption">Curated since 2020 · 650 Area Code</div>
+      </div>
+      <div class="story-text">
+        <span class="section-label">Our Story</span>
+        <h2 class="story-title">Local.<br><em>Curated.</em><br>Elevated.</h2>
+        <p>Six Fifty was built by smokers, for smokers. We got tired of choosing between cheap gas station gear and overpriced online shops with no soul — so we built something different.</p>
+        <p>Every bong, pipe, grinder, and accessory is personally vetted. If it doesn't pass our own use test, we don't sell it.</p>
+        <blockquote>"Rooted in the 650. Proud of it."</blockquote>
+        <a href="#products" class="btn-primary" style="margin-top:28px">Shop the Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ NEWSLETTER ═════════════════════════════════════════════ -->
+  <section class="newsletter">
+    <div class="nl-inner">
+      <div class="nl-text">
+        <h2>Join the<br><em>650 Club.</em></h2>
+        <p>10% off your first order. Early drops. Members-only deals.</p>
+      </div>
+      <form class="nl-form" id="nl-form">
+        <input type="email" placeholder="your@email.com" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="nl-success" id="nl-success">You're in. Welcome to the club.</p>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ═════════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">Six Fifty</div>
+        <p>Stay lit.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="X"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Shop</h5>
+        <a href="#">Modular Rigs</a>
+        <a href="#">Aerospace Grinders</a>
+        <a href="#">Daily Essentials</a>
+        <a href="#">Hand Pipes</a>
+        <a href="#">Accessories</a>
+      </div>
+      <div class="footer-col">
+        <h5>Help</h5>
+        <a href="#">FAQ</a>
+        <a href="#">Shipping Policy</a>
+        <a href="#">Returns</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Track Your Order</a>
+      </div>
+      <div class="footer-col">
+        <h5>About</h5>
+        <a href="#">Our Story</a>
+        <a href="#">The 650 Club</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Six Fifty Smoke Shop. All rights reserved.</p>
+      <p class="footer-legal">Must be 21+ to purchase. For tobacco use only.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

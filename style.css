@@ -169,10 +169,19 @@ img { display: block; width: 100%; }
     padding-bottom: 200px;
 }
 
-.hero-flex { width: 100%; }
+.hero-flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
 
 .hero-text {
-    max-width: 680px;
+    width: 100%;
+    max-width: 760px;
+    text-align: center;
+    margin: 0 auto;
     animation: fadeUp 0.9s ease both;
 }
 
@@ -203,9 +212,9 @@ h1 {
     font-size: 16px;
     font-weight: 300;
     color: rgba(242,240,236,0.65);
-    max-width: 440px;
+    max-width: 480px;
     line-height: 1.8;
-    margin-bottom: 44px;
+    margin: 0 auto 44px;
     animation: fadeUp 0.9s 0.3s ease both;
 }
 
@@ -850,6 +859,7 @@ h1 {
 
     /* Hero */
     .hero { min-height: 100vh; padding-top: 90px; padding-bottom: 140px; margin-bottom: -100px; }
+    .hero-flex { padding: 0 20px; }
     .blueprint-label { font-size: 10px; letter-spacing: 2.5px; }
     h1 { font-size: clamp(40px, 11vw, 60px); }
     .sub-text { font-size: 14px; max-width: 100%; }
